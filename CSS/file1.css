@@ -84,7 +84,10 @@ body {
   background-blend-mode: overlay;
   border-radius: 30px;
 }
-
+.wel:hover{
+transform: scale(1.1);
+transition-duration: 200ms;
+}
 .items {
   /* background-color: rgb(204, 238, 148); */
   position: relative;
