@@ -1,0 +1,234 @@
+body {
+  margin-top: 0px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.list {
+  display: flex;
+  margin-right: 12px;
+}
+.list li:hover {
+  transform: scale(1.1);
+  transition-duration: 300ms;
+}
+
+.list li {
+  display: block;
+  transition-duration: 0.1s;
+}
+.list a {
+  color: rgb(241, 210, 210);
+  text-decoration: none;
+  margin: 19px;
+  border: solid rgb(81, 209, 124) 1px;
+  padding: 3px;
+  border-radius: 5px;
+}
+.list a:hover {
+  background-color: rgb(185, 120, 228);
+  color: rgb(0, 16, 158);
+}
+.navbar {
+  display: inline-flex;
+  position: fixed;
+
+  top: 5px;
+  background-color: rgb(108, 51, 161);
+  padding: 12px;
+  border-radius: 4px;
+  height: fit-content;
+
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0px 0px 9px rgb(0, 0, 0);
+}
+
+#logo1 {
+  width: 85px;
+  background-color: rgb(190, 231, 229);
+  border-radius: 4px;
+  border: solid 2px rgb(109, 109, 109);
+  padding: 3px;
+}
+
+.homeBack {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 1325px 600px;
+  background-position: center;
+  padding-right: 0px;
+  background-image: url(https://img.freepik.com/free-vector/vector-cartoon-interior-cozy-hotel-bedroom-with-furniture_33099-1216.jpg?size=626&ext=jpg);
+  background-color: rgba(255, 255, 255, 0.26);
+  background-blend-mode: overlay;
+}
+
+.main {
+  width: 100%;
+}
+.wel {
+  position: absolute;
+  /* display: flex; */
+  margin-left: 1000px;
+  margin-top: 200px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 40px;
+  /* padding-top: 200px; */
+  background-color: hsla(269, 18%, 27%, 0.884);
+  width: fit-content;
+  height: fit-content;
+  background-blend-mode: overlay;
+  border-radius: 30px;
+}
+
+.items {
+  /* background-color: rgb(204, 238, 148); */
+  position: relative;
+
+  width: 1260px;
+
+  height: auto;
+  margin: auto;
+  margin-top: 720px;
+  padding: 30px;
+  border-radius: 7px;
+  background-color: hsla(36, 100%, 90%, 0.733);
+  border: rgb(171, 221, 123) solid 1px;
+}
+.item1 {
+  width: 100%;
+
+  background-color: rgb(255, 255, 255);
+  height: 400px;
+  border-radius: 30px;
+  /* margin: auto; */
+  margin-top: 50px;
+  transition-duration: 0.1s;
+}
+.item1:hover {
+  transform: scale(1.005);
+  box-shadow: 0px 02px 10px purple;
+}
+.welp {
+  margin: 0px;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Shadows Into Light", cursive;
+  color: rgb(108, 206, 84);
+  transition-duration: 0.4s;
+}
+#welpara {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Shadows Into Light", cursive;
+  color: rgb(223, 112, 72);
+}
+#it1 {
+  font-family: "Noto Sans JP", sans-serif;
+  /* padding: 5px; */
+  color: rgb(34, 69, 165);
+  padding-left: 20px;
+  font-size: 30px;
+  display: inline-block;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+#star {
+  display: inline-block;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 0px;
+  padding-left: 20px;
+  margin-bottom: 0px;
+}
+
+.hotel_img {
+  position: relative;
+  display: flex;
+  float: right;
+  margin-right: 30px;
+  width: 30%;
+  background-blend-mode: overlay;
+  box-shadow: rgb(163, 157, 157) 3px 3px 3px 3px;
+  border-radius: 4px;
+
+  transition-duration: 0.3s;
+}
+.service {
+  display: inline-block;
+  padding: 0% 20px;
+  color: rgb(134, 134, 134);
+}
+ 
+.hotel_img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px black;
+}
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+  background: rgb(157, 131, 216);
+}
+body::-webkit-scrollbar-thumb {
+  background: rgb(96, 0, 175);
+}
+.address {
+  font-family: "Noto Sans JP", sans-serif;
+  display: inline-block;
+  margin: 0px;
+  padding-left: 20px;
+}
+.address_det {
+  font-family: "Noto Sans JP", sans-serif;
+  display: inline-block;
+  margin: 0px;
+}
+.website {
+  display: inline-block;
+  padding: 3px 10px;
+  margin-left: 40px;
+  margin-top: 20px;
+  background-color: rgba(214, 214, 214, 0.288);
+  border-radius: 23px;
+  text-decoration: none;
+  transition-duration: 200ms;
+}
+.website:hover {
+  background-color: rgb(162, 187, 104);
+}
+.foot {
+  background-color: rgb(176, 223, 132);
+  border-radius: 5px;
+}
+.footer {
+  text-align: center;
+  width: auto;
+  height: fit-content;
+}
+.footer a {
+  position: initial;
+font-weight: bolder;
+  padding-left: 40px;
+  text-decoration: none;
+}
+.owner {
+  display: inline-block;
+  margin-left: 20px;
+}
+.owner h3 {
+  margin-bottom: 3px;
+}
+.owner p {
+  display: inline-block;
+}
+#owner_img {
+  border-radius: 5px;
+  width: 150px;
+  height: 180px;
+}
