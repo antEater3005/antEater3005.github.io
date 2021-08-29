@@ -83,10 +83,10 @@ body {
   height: fit-content;
   background-blend-mode: overlay;
   border-radius: 30px;
-  transition-duration: 200ms;
+  transition-duration: 360ms;
 }
 .wel:hover{
-  transform: scale(1.12);
+  transform: rotate(360deg);
   }
 .items {
   /* background-color: rgb(204, 238, 148); */
