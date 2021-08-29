@@ -86,7 +86,7 @@ body {
   transition-duration: 200ms;
 }
 .wel:hover{
-  transform: scale(1.1);
+  transform: scale(1.12);
   }
 .items {
   /* background-color: rgb(204, 238, 148); */
